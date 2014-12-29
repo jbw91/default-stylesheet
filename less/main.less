@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400);
+
+@import "variables.less";
+
+* {
+	font-family: 'Open Sans', sans-serif;
+	color:@text;
+}
+
+hr {
+	color:@border;
+}
+
+// Buttons
+button {
+	background-color: transparent;
+	border: 1px solid @text;
+	padding: 5px 20px;
+	font-size: 15px;
+	border-radius: 2px;
+	cursor: pointer;
+
+	&:hover {
+		background-color:@btn-hover;
+	}
+	&:active {
+		background-color:@btn-active;
+	}
+}
+
+// Links
+a {
+	color:@link;
+
+	// Visited Link
+	&:visited {
+
+	}
+	// Selected
+	&:active {
+		color:@link-active;
+	}
+}
+
+// Blockquotes and related tags
+blockquote {
+	border-left: 3px solid @border;
+	padding-left: 10px;
+
+	footer {
+		color:@text-secondary;
+	}
+}
+
+cite {
+	color:@text-secondary;
+}
+
+// Code
+code {
+	font-family:monospace;
+	background-color: @code-back;
+	padding: 2px 4px;
+	border: 1px solid @code-border;
+	border-radius: 2px;
+	font-size: 93%;
+}
+pre {
+	font-family: monospace;
+	background-color: @code-back;
+	padding: 8px 10px;
+	border: 1px solid @code-border;
+	border-radius: 2px;
+	font-size: 93%;
+}

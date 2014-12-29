@@ -1,0 +1,57 @@
+/*! simple-elegance - v0.1.0 - 2014-12-29
+* http://jbw91.github.io/simple-elegance
+* Copyright (c) 2014 John Woodruff; Licensed MIT */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400);
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: #212121;
+}
+hr {
+  color: #dadada;
+}
+button {
+  background-color: transparent;
+  border: 1px solid #212121;
+  padding: 5px 20px;
+  font-size: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+button:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+a {
+  color: #1565c0;
+}
+a:active {
+  color: #0d47a1;
+}
+blockquote {
+  border-left: 3px solid #dadada;
+  padding-left: 10px;
+}
+blockquote footer {
+  color: #727272;
+}
+cite {
+  color: #727272;
+}
+code {
+  font-family: monospace;
+  background-color: #eeeeee;
+  padding: 2px 4px;
+  border: 1px solid #9e9e9e;
+  border-radius: 2px;
+  font-size: 93%;
+}
+pre {
+  font-family: monospace;
+  background-color: #eeeeee;
+  padding: 8px 10px;
+  border: 1px solid #9e9e9e;
+  border-radius: 2px;
+  font-size: 93%;
+}
