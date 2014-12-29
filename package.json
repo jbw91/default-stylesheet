@@ -1,0 +1,40 @@
+{
+	"name": "simple-elegance",
+	"description": "A beautifully simple default CSS stylesheet",
+	"version": "0.1.0",
+	"author": "John Woodruff",
+	"homepage": "http://jbw91.github.io/simple-elegance",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jbw91/simple-elegance"
+	},
+	"keywords": [
+		"css",
+		"less",
+		"front-end",
+		"stylesheet",
+		"web"
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/jbw91/simple-elegance/blob/master/LICENSE"
+		}
+	],
+	"style": "dist/simple-elegance.css",
+	"less": "less/simple-elegance.less",
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.5",
+		"grunt-bumpup": "^0.6.2",
+		"grunt-contrib-clean": "^0.6.0",
+		"grunt-contrib-concat": "~0.4.0",
+		"grunt-contrib-cssmin": "^0.10.0",
+		"grunt-contrib-jshint": "~0.10.0",
+		"grunt-contrib-less": "^0.12.0",
+		"grunt-contrib-watch": "~0.6.1",
+		"grunt-conventional-changelog": "^1.1.0"
+	}
+}

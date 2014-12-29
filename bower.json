@@ -1,0 +1,29 @@
+{
+	"name": "simple-elegance",
+	"description": "A beautifully simple default CSS stylesheet",
+	"version": "0.1.0",
+	"keywords": [
+		"css",
+		"less",
+		"front-end",
+		"stylesheet",
+		"web"
+	],
+	"main": [
+		"dist/simple-elegance.min.css"
+	],
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests",
+		"less",
+		"css",
+		"src",
+		"karma.conf.js",
+		"Gruntfile.js",
+		"module.*"
+	],
+	"homepage": "http://jbw91.github.io/simple-elegance"
+}
