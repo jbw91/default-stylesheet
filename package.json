@@ -1,12 +1,12 @@
 {
-  "name": "simple-elegance",
+  "name": "default-stylesheet",
   "description": "A beautifully simple default CSS stylesheet",
   "version": "0.1.0",
   "author": "John Woodruff",
-  "homepage": "http://jbw91.github.io/simple-elegance",
+  "homepage": "http://jbw91.github.io/default-stylesheet",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jbw91/simple-elegance"
+    "url": "https://github.com/jbw91/default-stylesheet"
   },
   "keywords": [
     "css",
@@ -18,11 +18,11 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/jbw91/simple-elegance/blob/master/LICENSE"
+      "url": "https://github.com/jbw91/default-stylesheet/blob/master/LICENSE"
     }
   ],
-  "style": "dist/simple-elegance.css",
-  "less": "less/simple-elegance.less",
+  "style": "dist/default-stylesheet.css",
+  "less": "less/default-stylesheet.less",
   "engines": {
     "node": ">= 0.10.0"
   },

@@ -15,7 +15,7 @@ module.exports = function(grunt) {
 		less: {
 			development: {
 				files: {
-					"css/simple-elegance.css": "less/main.less"
+					"css/default-stylesheet.css": "less/main.less"
 				}
 			}
 		},

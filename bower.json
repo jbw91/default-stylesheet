@@ -1,5 +1,5 @@
 {
-	"name": "simple-elegance",
+	"name": "default-stylesheet",
 	"description": "A beautifully simple default CSS stylesheet",
 	"version": "0.1.0",
 	"keywords": [
@@ -10,7 +10,7 @@
 		"web"
 	],
 	"main": [
-		"dist/simple-elegance.min.css"
+		"dist/default-stylesheet.min.css"
 	],
 	"ignore": [
 		"**/.*",
@@ -25,5 +25,5 @@
 		"Gruntfile.js",
 		"module.*"
 	],
-	"homepage": "http://jbw91.github.io/simple-elegance"
+	"homepage": "http://jbw91.github.io/default-stylesheet"
 }

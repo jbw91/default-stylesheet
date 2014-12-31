@@ -15,7 +15,7 @@ hr {
 button {
 	background-color: transparent;
 	border: 1px solid @text;
-	padding: 5px 20px;
+	padding: 5px 13px;
 	font-size: 15px;
 	border-radius: 2px;
 	cursor: pointer;
@@ -34,7 +34,7 @@ a {
 
 	// Visited Link
 	&:visited {
-
+		color:@link;
 	}
 	// Selected
 	&:active {
@@ -72,4 +72,32 @@ pre {
 	border: 1px solid @code-border;
 	border-radius: 2px;
 	font-size: 93%;
+}
+
+// Input Fields
+input[type=button] {
+	background-color: transparent;
+	border: 1px solid @text;
+	padding: 5px 13px;
+	font-size: 15px;
+	border-radius: 2px;
+	cursor: pointer;
+
+	&:hover {
+		background-color:@btn-hover;
+	}
+	&:active {
+		background-color:@btn-active;
+	}
+}
+input[type=text] {
+	padding: 5px;
+	font-size: 14px;
+	border-radius: 2px;
+	border: 1px solid @border;
+
+	&:active, &:focus {
+		border: 1px solid @text-secondary;
+		outline:0;
+	}
 }

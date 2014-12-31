@@ -1,4 +1,4 @@
-# Simple Elegance
+# Default Stylesheet
 
 A beautifully simple default CSS stylesheet
 
