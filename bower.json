@@ -3,6 +3,5 @@
   "description": "A beautifully simple default CSS stylesheet",
   "devDependencies": {},
   "dependencies": {
-    "barebones-grid": "~1.0.1"
   }
 }
