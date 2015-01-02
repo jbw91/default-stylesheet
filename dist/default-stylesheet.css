@@ -1,6 +1,6 @@
-/*! default-stylesheet - v0.1.0 - 2014-12-31
+/*! default-stylesheet - v0.1.0 - 2015-01-01
 * http://jbw91.github.io/default-stylesheet
-* Copyright (c) 2014 John Woodruff; Licensed MIT */
+* Copyright (c) 2015 John Woodruff; Licensed MIT */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400);
 * {
   font-family: 'Open Sans', sans-serif;
@@ -58,7 +58,9 @@ pre {
   border-radius: 2px;
   font-size: 93%;
 }
-input[type=button] {
+input[type=button],
+input[type=submit],
+input[type=reset] {
   background-color: transparent;
   border: 1px solid #212121;
   padding: 5px 13px;
@@ -66,20 +68,66 @@ input[type=button] {
   border-radius: 2px;
   cursor: pointer;
 }
-input[type=button]:hover {
+input[type=button]:hover,
+input[type=submit]:hover,
+input[type=reset]:hover {
   background-color: rgba(0, 0, 0, 0.05);
 }
-input[type=button]:active {
+input[type=button]:active,
+input[type=submit]:active,
+input[type=reset]:active {
   background-color: rgba(0, 0, 0, 0.2);
 }
-input[type=text] {
+input {
   padding: 5px;
   font-size: 14px;
   border-radius: 2px;
   border: 1px solid #dadada;
 }
-input[type=text]:active,
-input[type=text]:focus {
+input:active,
+input:focus {
   border: 1px solid #727272;
   outline: 0;
+}
+input[type=image],
+input[type=file] {
+  padding: 5px;
+  font-size: 14px;
+  border: 0;
+}
+input[type=image]:active,
+input[type=file]:active,
+input[type=image]:focus,
+input[type=file]:focus {
+  outline: 0;
+}
+select {
+  padding: 5px 13px;
+  font-size: 14px;
+  height: 31px;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+}
+select:active,
+select:focus {
+  outline: 0;
+}
+table,
+th,
+tr,
+td {
+  border-spacing: 0;
+  padding: 15px 10px;
+  text-align: left;
+}
+table {
+  width: 100%;
+}
+th {
+  border-bottom: 1px solid #dadada;
+}
+td {
+  border-top: 1px solid #dadada;
 }

@@ -75,7 +75,7 @@ pre {
 }
 
 // Input Fields
-input[type=button] {
+input[type=button], input[type=submit], input[type=reset] {
 	background-color: transparent;
 	border: 1px solid @text;
 	padding: 5px 13px;
@@ -90,7 +90,8 @@ input[type=button] {
 		background-color:@btn-active;
 	}
 }
-input[type=text] {
+
+input {
 	padding: 5px;
 	font-size: 14px;
 	border-radius: 2px;
@@ -100,4 +101,45 @@ input[type=text] {
 		border: 1px solid @text-secondary;
 		outline:0;
 	}
+}
+
+input[type=image],input[type=file] {
+	padding: 5px;
+	font-size: 14px;
+	border: 0;
+
+	&:active, &:focus {
+		outline:0;
+	}
+}
+
+// Select Element
+select {
+	padding: 5px 13px;
+	font-size: 14px;
+	height:31px;
+	background-color: @white;
+	background-image: none;
+	border: 1px solid @border;
+	border-radius: 2px;
+
+	&:active, &:focus {
+		outline:0;
+	}
+}
+
+// Table
+table, th, tr, td {
+	border-spacing:0;
+	padding:15px 10px;
+	text-align:left;
+}
+table {
+	width:100%;
+}
+th {
+	border-bottom:1px solid @border;
+}
+td {
+	border-top:1px solid @border;
 }
