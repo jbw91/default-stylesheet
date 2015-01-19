@@ -1,7 +1,7 @@
 {
 	"name": "default-stylesheet",
 	"description": "A beautifully simple default CSS stylesheet",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"keywords": [
 		"css",
 		"less",
